@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Closed treasure chest, drawn inside the 66dp safe zone of the 108dp adaptive icon. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- glow -->
+    <path android:fillColor="#33FFD77A" android:pathData="M54,22a30,24 0,1 1,-0.1 0z" />
+    <!-- lid -->
+    <path android:fillColor="#FF9A5F2C" android:pathData="M30,53L30,43Q54,27 78,43L78,53Z" />
+    <path android:fillColor="#00000000" android:strokeColor="#FF3F3A35" android:strokeWidth="2.4" android:pathData="M30,43Q54,27 78,43" />
+    <!-- body -->
+    <path android:fillColor="#FF7A4520" android:pathData="M31,53L77,53L77,79Q77,81 75,81L33,81Q31,81 31,79Z" />
+    <path android:fillColor="#00000000" android:strokeColor="#FF4A2810" android:strokeWidth="1" android:pathData="M31,64L77,64M31,72L77,72" />
+    <!-- iron bands -->
+    <path android:fillColor="#FF3F3A35" android:pathData="M29,51L79,51L79,56L29,56Z" />
+    <path android:fillColor="#FF3F3A35" android:pathData="M34,38.5L39,36.2L39,81L34,81Z" />
+    <path android:fillColor="#FF3F3A35" android:pathData="M69,36.2L74,38.5L74,81L69,81Z" />
+    <!-- lock -->
+    <path android:fillColor="#FFE2B04A" android:pathData="M50,49L58,49L58,58L50,58Z" />
+    <path android:fillColor="#FFE2B04A" android:pathData="M48.5,57.5L59.5,57.5L59.5,67Q59.5,68 58.5,68L49.5,68Q48.5,68 48.5,67Z" />
+    <path android:fillColor="#FF1A0F05" android:pathData="M54,60.2a1.6,1.6 0,1 1,-0.01 0zM53.3,62L54.7,62L55.1,65.5L52.9,65.5Z" />
+    <!-- sparkle -->
+    <path android:fillColor="#FFFFF0B0" android:pathData="M76,25L77.2,28.8L81,30L77.2,31.2L76,35L74.8,31.2L71,30L74.8,28.8Z" />
+</vector>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">קפטן פודי</string>
+    <string name="no_maps_app">לא נמצאה אפליקציה שיכולה לפתוח את הניווט. התקינו את גוגל מפות או דפדפן.</string>
+</resources>

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--
+  Content Security Policy:
+  - scripts only from the app itself (no inline scripts, no eval)
+  - styles from the app and Google Fonts; inline style attributes are needed for the drawn map
+  - fonts from the app and Google Fonts
+  - no network requests (fetch / XHR / WebSocket), no plugins, no forms, no frames
+  The Android wrapper enforces the same allowlist again at the network layer.
+-->
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'none'; media-src 'none'; object-src 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="color-scheme" content="dark">
+<title>קפטן פודי</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&amp;family=Frank+Ruhl+Libre:wght@400;500;700&amp;family=Suez+One&amp;display=swap">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="ghost-ship" aria-hidden="true"></div>
+<div id="app"></div>
+<div id="layer"></div>
+<script src="app.js"></script>
+</body>
+</html>
